@@ -29,6 +29,20 @@ p {
   color: #343a40;
 }
 
+.card-deck {
+
+  display: flex;
+ flex-wrap: wrap;
+
+}
+
+.card {
+  flex: 1 1 calc(25%);
+  box-sizing: border-box;
+}
+
+
+
 @media screen and (min-width:576px) {
   .row {
     margin-bottom: 30px;
